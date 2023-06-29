@@ -9,3 +9,6 @@ In my spare time, I love exploring new data analysis tools and techniques. I'm a
 Thank you for considering me as a candidate, I look forward to hearing from you soon.
 
 My Resume in [PDF](https://github.com/Dbui2358/My-Portfolio/blob/main/Dong%20Bui%20Resume%206.28.2023.pdf).
+
+Tableau Visualizations
+  [Netflix Dashboard](https://public.tableau.com/app/profile/dong.bui1693/viz/NetflixDashboard_16880131915670/Dashboard2?publish=yes)
