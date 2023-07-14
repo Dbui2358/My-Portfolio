@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dong Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87c67dd60e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"> DONG BUI, CPA </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#header" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links"> About </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#portfolio" class="navbar__links"> Connect </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Introduction Section -->
+    <div id="header">
+        <div class="header_container">
+            <div class="header_text">
+                <p>Certified Public Accountant</p>
+                <h1>Dong Bui</h1>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Headshot.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p style="line-height: 1.5;">I am a Certified Public Accountant living in Los Angeles but I grew up in Minneapolis. 
+                        When I'm not at work, I love to travel, hike, and I'm an avid boulderer. 
+                        I'm experienced in GAAP, income tax compliance, R&D tax credit consulting, and I am experienced working on the audits of large banking institutions. 
+                        I'm passionate about process improvements and I'm always love to stay up-to-date with technology.
+                        Currently, I am open to corporate accounting roles in the gaming, tech, and entertainment industries.
+                    </p>
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick = "opentab('programming')">Languages</p>
+                        <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick = "opentab('education')">Education</p>
+                        <p class = "tab-links" onclick = "opentab('certification')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>Generally Accepted Accounting Principles (GAAP)</span><br>Standards of Accounting</li>
+                            <li><span>Audit and Controls</span><br>Assessing and Ensuring Operational Compliance</li>
+                            <li><span>Income Tax Compliance</span><br>Federal, State, and International Compliance</li>
+                            <li><span>Data Analysis</span><br>Federal, State, and International Compliance</li>
+                            <li><span>Microsoft Office Suite</span><br>Expert Proficiency</li>
+                            <li><span>Alteryx</span><br>Intermediate Proficiency</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "programming">
+                        <ul>
+                            <li><span>Structured Query Language (SQL)</span><br>Basic Proficiency</li>
+                            <li><span>Python</span><br>Basic Proficiency</li>
+                            <li><span>Hypertext Markup Language (HTML)</span><br>Basic Proficiency</li>
+                            <li><span>Cascading Style Sheets (CSS)</span><br>Basic Proficiency</li>
+                            <li><span>JavaScript</span><br>Basic Proficiency</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>Senior Associate, KPMG LLP</span><br>2021 - Present</li>
+                            <li><span>Associate, KPMG LLP</span><br>2019 - 2021</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>University of Minnesota - Twin Cities</span><br>Bachelor's of Science in Business, Accounting<br>2015 - 2019</li>
+                            <li><span>University of Minnesota - Twin Cities</span><br>Bachelor's of Science in Business, Finance<br>2015 - 2019</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "certification">
+                        <ul>
+                            <li><span>Certified Public Accountant - California</span><br>California Board of Accountancy<br>Issued: May 2023<br>Expiration: April 2025</li>
+                            <li><span>Certified Public Accountant - Minnesota</span><br>Minnesota Board of Accountancy<br>Issued: September 2020<br>Expiration: December 2023</li>
+                            <li><span>Alteryx Designer Core</span><br>Alteryx<br>Issued: June 2023<br>Expiration: June 2025</li>
+                            <li><span>Google Data Analytics Specialization</span><br>Coursera<br>Issued: July 2023<br>Expiration: N/A</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------- Portfolio ------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">Connect</h1>
+        <div class="work-list">
+            <div class="work" onclick="openlink('https://www.linkedin.com/in/dong-bui-cpa-146229131/')">
+                <i class="fa-brands fa-linkedin"></i>
+                <h2>LinkedIn</h2>
+                <p>Connect with me on LinkedIn!</p>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.linkedin.com/in/dong-bui-cpa-146229131/" class="work" target="_blank"></a>
+            </div>
+            <div class="work" onclick="openlink('https://github.com/Dbui2358/My-Portfolio')">
+                <i class="fa-brands fa-github"></i>
+                <h2>GitHub</h2>
+                <p>Check out my projects on GitHub!</p>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://github.com/Dbui2358/My-Portfolio" class="work" target="_blank"></a>
+            </div>
+            <div class="work" onclick="openlink('https://public.tableau.com/app/profile/dong.bui1693')">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Tableau Public</h2>
+                <p>Check out my visualizations on Tableau Public!</p>
+                <i class="fa-solid fa-link"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------- Contact ------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dongbui1234@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(612)594-4449</p>
+                <a href="images/Resume_Dong Bui_07092023.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Dong Bui 2023</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    function openlink(url) {
+        window.open(url, '_blank');
+    }
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjuIVw5x97RXVOxbFvabe_XnLBeZexH7V1jAPw0li39bKku5kBlCscXQ-AAiiprTMhJg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
